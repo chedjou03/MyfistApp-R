@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         print (pushCount)
         if(pushCount >= 5)
         {
-            self.nameLabel.text = "YOU PUSH THIS TOO MUCH ! "
+            self.nameLabel.text = "Push THIS TOO MUCH ! "
         }
         
     }
