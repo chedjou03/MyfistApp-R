@@ -22,6 +22,7 @@
 		526EE404218953BA000AC6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526EE407218953BA000AC6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		526EE409218953BA000AC6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526EE41021895546000AC6DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +148,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				526EE402218953BA000AC6DC /* Base */,
+				526EE41021895546000AC6DC /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

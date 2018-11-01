@@ -9,10 +9,32 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var nameLabel: UILabel!
+   
+    @IBOutlet weak var fullNameLabel: UILabel!
+    
+    var pushCount = 0;
+    
+    @IBAction func pushMeButton(_ sender: Any) {
+        pushCount = pushCount + 1
+        self.nameLabel.text = "Bonjour simplice"
+        print (pushCount)
+        if(pushCount >= 5)
+        {
+            self.nameLabel.text = "YOU PUSH THIS TOO MUCH ! "
+        }
+        
+    }
+    
+    @IBAction func sayYourFullButton(_ sender: Any) {
+        self.fullNameLabel.text = "Simplice chedjou"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.backgroundColor = UIColor.yellow
+        
+        
     }
 
 
